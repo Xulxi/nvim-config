@@ -9,6 +9,7 @@ return {
 			go = { "gofumpt" },
 			python = { "black" },
 			lua = { "stylua" },
+			rust = { "rustfmt" },
 		},
 	},
 	event = "BufWritePre",
