@@ -43,5 +43,7 @@ end, opts)
 map("n", "<leader>t", "<cmd>NvimTreeFocus<CR>", opts)
 
 -- ===== General =====
+-- Full write
+map("n", "<leader>w", "<cmd>wa<CR>")
 -- Full quit
 map("n", "<leader>q", "<cmd>wqa<CR>")
