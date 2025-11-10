@@ -17,3 +17,6 @@ lspconfig("gopls", {})
 
 -- Rust
 lspconfig("rust_analyzer", {})
+
+-- Fish
+lspconfig("fish", {})
