@@ -10,6 +10,7 @@ return {
 			python = { "black" },
 			lua = { "stylua" },
 			rust = { "rustfmt" },
+			fish = { "fish_indent" },
 		},
 	},
 	event = "BufWritePre",
